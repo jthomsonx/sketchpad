@@ -1,0 +1,29 @@
+h1 {
+	color: grey;
+	font-family: Arial, sans-serif;
+	margin-top: 10px;
+	text-align: center;
+}
+
+#container {
+	height: 544px;
+	width: 544px;
+	background-color: grey;
+	margin: auto;
+}
+
+.cell {
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	background-color: white;
+	height: 30px;
+	width: 30px;
+	margin: 1px;
+	display: inline-block;
+	float: left;
+}
+
+.enter {
+	background-color: red;
+}
