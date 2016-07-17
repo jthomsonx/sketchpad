@@ -1,29 +1,55 @@
 h1 {
-	color: grey;
+	color: gray;
 	font-family: Arial, sans-serif;
 	margin-top: 10px;
 	text-align: center;
 }
 
-#container {
-	height: 544px;
-	width: 544px;
-	background-color: grey;
+.buttons {
+	width: 280px;
+	height: 20px;
 	margin: auto;
 }
 
-.cell {
-	border-style: solid;
-	border-color: white;
-	border-width: 1px;
+#frame {
+	height: 674px;
+	width: 604px;
+	background-color: red;
+	margin: auto;
+}
+
+#grid {
+	height: 544px;
+	width: 544px;
+	background-color: black;
+	margin-left: 30px;
+	margin-top: 30px; /* why does this not work? */
+}
+
+.knobs {
 	background-color: white;
-	height: 30px;
-	width: 30px;
-	margin: 1px;
-	display: inline-block;
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: gray;
+	border-size: 1px;
+}
+
+#left {
+	margin-left: 10px;
+	margin-top: 10px;
 	float: left;
 }
 
-.enter {
-	background-color: red;
+#right {
+	margin-top: 10px;
+	margin-right: 10px;
+	float: right;
+}
+
+.cell {
+	background-color: white;
+	display: inline-block;
+	float: left;
 }
