@@ -3,26 +3,32 @@ var gridSize = 48;
 var option = "default";
 
 // Create the default grid when document is ready.
-$(document).ready(function() {
+//$(document).ready(function() {
+//	createGrid(gridSize, option);
+//});
+document.addEventListener("DOMContentLoaded", function() {
 	createGrid(gridSize, option);
 });
 
 // Clear the current sketch
+//document.getElementById("clear").onclick = function() {
+//};
 $("#clear").click(function() {
 	$(".cell").css({"background-color": "white", "opacity": "1"});
 });
+
 // Creates new grid with default option.
-$("#default").click(function() {
+document.getElementById("default").onclick = function() {
 	updateGrid("default");
-});
+};
 // Creates new grid with gradient option.
-$("#gradient").click(function() {
+document.getElementById("gradient").onclick = function() {
 	updateGrid("gradient");
-});
+};
 // Creates new grid with Multi-colour option.
-$("#colour").click(function() {
+document.getElementById("colour").onclick = function() {
 	updateGrid("colour");
-});
+};
 
 // Function to create grid and allow sketchpad operation.
 function createGrid(number, option) {

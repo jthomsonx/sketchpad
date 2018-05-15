@@ -1,7 +1,7 @@
 Sketchpad
 
-Building an interactive sketchpad using Javascript & JQuery
+Building an interactive sketchpad using Javascript.
 
 Project instructions taken from the below:
 
-http://www.theodinproject.com/web-development-101/javascript-and-jquery?ref=lnav
+https://www.theodinproject.com/courses/web-development-101/lessons/etch-a-sketch-project
